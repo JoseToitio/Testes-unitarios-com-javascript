@@ -16,6 +16,14 @@
       #VQV!'
 */
 
-const vqv = () => {};
-
+const vqv = (string, num) => {
+  if (string > 1 || num > 0) {
+    return `Oi, meu nome é ${string}!
+Tenho ${num} anos,
+trabalho na Trybe e mando muito em programação!
+#VQV!`;
+  } 
+  return undefined;
+};
+console.log(vqv('Tunico', 30));
 module.exports = vqv;

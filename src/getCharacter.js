@@ -68,4 +68,7 @@ const getCharacter = (name) => {
   return undefined;
 };
 
+const arya1 = getCharacter('Arya');
+const arya2 = getCharacter('arya');
+console.log(arya1 === arya2);
 module.exports = getCharacter;

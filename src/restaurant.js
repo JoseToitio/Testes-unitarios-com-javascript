@@ -89,8 +89,5 @@ const createMenu = (obj) => {
 const menuOrder = (string) => {
   createMenu().consumption = string;
 };
-const meuRestaurante = createMenu({ food: { coxinha: 3.9, sopa: 9.9 }, drink: { agua: 3.9, cerveja: 6.9 } });
-const objetoRetornado5 = createMenu({ food: {}, drink: {} });
-objetoRetornado5.consumption.order = ['coxinha'];
-console.log(objetoRetornado5.consumption.order);
+
 module.exports = createMenu;
